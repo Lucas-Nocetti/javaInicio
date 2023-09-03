@@ -39,7 +39,7 @@ public class Desafio {
                 valorDeposito = entrada.nextDouble();
                 saldoCliente += valorDeposito;
                 System.out.print("Saldo atualizado: " +saldoCliente);
-            } else if (operacao==3) {
+            } else{
                 System.out.println("Qual o valor para transferir?");
                 valorTransferencia = entrada.nextDouble();
                 if(valorTransferencia<=saldoCliente) {
